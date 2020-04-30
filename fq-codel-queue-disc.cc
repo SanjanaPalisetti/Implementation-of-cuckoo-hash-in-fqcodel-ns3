@@ -309,6 +309,7 @@ FqCoDelQueueDisc::DoEnqueue (Ptr<QueueDiscItem> item)
 		  			}
 
 		  			// collision handling
+					//m_flowsIndices1 this map need to define in fq-codel-queue-disc.h ? 
 
 					else if(m_flowsIndices1.find(h1) != m_flowsIndices1.end()){
 
